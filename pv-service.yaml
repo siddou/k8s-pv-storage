@@ -7,5 +7,5 @@ spec:
   - name: "8080"
     port: 8080
     targetPort: 80
-# status:
-#   loadBalancer: {}
+  selector:
+    name: task-pv-pod
